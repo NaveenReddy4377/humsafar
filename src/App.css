@@ -1,8 +1,23 @@
 .App {
-  text-align: center;
+  /* display: flex;
+  flex-wrap: wrap; */
+  margin-top:200px;
+  /* margin: 10px; */
+}
+.heading{
+  display: flex;
+  justify-content: center;
+  margin-top:120px;
+  background-color: red;
+  padding: 10px;
+  color: #fff;
+  font-family: Poppins,Sans-serif;
+  font-weight: 600;
+  list-style-type: none;
+  align-items:center;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +50,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
